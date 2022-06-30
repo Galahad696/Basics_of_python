@@ -1,1 +1,1 @@
-Olá. Nesse projecto eu estou aprendendo a usar o git, apesar de já programar há algum tempo, enquanto exercito as bases de Python.
+Hello. In this project I'm learning how to use git and github, although I've already been programming for a while, while I exercise the basics of Python.
