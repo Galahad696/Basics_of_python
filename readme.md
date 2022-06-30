@@ -1,1 +1,1 @@
-Olá. Nesse projecto eu estou aprendendo a usar o git, apesar de já programar há algum tempo.
+Olá. Nesse projecto eu estou aprendendo a usar o git, apesar de já programar há algum tempo, enquanto exercito as bases de Python.
