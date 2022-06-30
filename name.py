@@ -1,4 +1,4 @@
-# Este programa muda nome em letras minúsculas para maiúsculas.
+# Este programa muda nome de letras minúsculas para maiúsculas.
 
 name = 'ada shelby'
 print(name.title())
