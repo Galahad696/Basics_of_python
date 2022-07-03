@@ -1,5 +1,5 @@
 message= "Hello Python World"
 print(message, "\n")
 
-message1= "Hello Python Crash Course World"
-print(message1)
+message2= "Hello Python Crash Course World"
+print(message2)
