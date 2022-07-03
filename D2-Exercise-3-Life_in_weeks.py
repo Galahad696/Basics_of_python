@@ -11,12 +11,12 @@ age = input("What is your current age?")
 # 🚨 Don't change the code above 👆
 
 #Write your code below this line 👇
-time_left = 90 - int(age)
+time_remaining = 90 - int(age)
 
-weeks = time_left * round(52.1428571)
+weeks = time_remaining * round(52.1428571)
 
-days = time_left * 365
+days = time_remaining * 365
 
-months = time_left * 12
+months = time_remaining * 12
 
 print(f"You have {days} days, {weeks} weeks, and {months} months left.")
