@@ -12,5 +12,5 @@ for number in student_scores:
         max_value = number
 
 
-print(f"The highest score in the class is: {max_value}.\n")
+print(f"The highest score in the class is: {max_value}.")
 
