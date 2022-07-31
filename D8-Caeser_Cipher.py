@@ -50,6 +50,7 @@ while ask == True:
 
     if question == "no":
         ask = False
+        print("Goodbye")
     else:
         ask = True
 
