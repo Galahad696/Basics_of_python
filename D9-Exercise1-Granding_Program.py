@@ -7,7 +7,7 @@ student_scores = {
 }
 
 
-#Create an empty dictionary called student_grades.
+#Create an empty dictionary called student_gradees.
 student_grades = {}
 
 # Add the grades to student_grades.
