@@ -16,8 +16,7 @@ def days_in_month(chosen_year, chosen_month):
     is_leap(chosen_year)
     if is_leap(chosen_year):
         month_days[2] = 29
-    for i in month_days:
-        return month_days[chosen_month]
+    return month_days[chosen_month]
 
 
 year = int(input("Enter a year: "))
