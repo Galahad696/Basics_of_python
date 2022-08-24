@@ -9,11 +9,13 @@ print(logo)
 
 # Random choice in data list.
 def choice():
+    """Generates a random list element to compare with."""
     return random.choice(data)
 
 
 # Function to compare the followers.
 def compare(answer, aleatory_choice1, aleatory_choice2):
+    """Takes the user answer and return if they are right(True) or wrong(False)."""
     if answer == 'a':
         if aleatory_choice1['follower_count'] > aleatory_choice2['follower_count']:
             return True
@@ -66,3 +68,6 @@ def play():
 
 
 play()
+
+
+
