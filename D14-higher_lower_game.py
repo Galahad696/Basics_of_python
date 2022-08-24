@@ -46,7 +46,7 @@ def play():
 
         print(f"Compare A: {choice1['name']}, a {choice1['description']}, from {choice1['country']}. ")
         print(vs)
-        print(f"Compare B: {choice2['name']}, a {choice2['description']}, from {choice2['country']}. ")
+        print(f"Against B: {choice2['name']}, a {choice2['description']}, from {choice2['country']}. ")
 
         choose = input("Who has more followers? Type 'A' or 'B': ").lower()
         compare(choose, choice1, choice2)
