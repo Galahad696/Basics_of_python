@@ -1,7 +1,7 @@
 import random
-from higher_lower_art import logo
-from higher_lower_art import vs
-from higher_lower_data import data
+from D14_higher_lower_art import logo
+from D14_higher_lower_art import vs
+from D14_higher_lower_data import data
 
 # Logo
 print(logo)
