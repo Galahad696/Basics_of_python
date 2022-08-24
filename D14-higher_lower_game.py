@@ -36,14 +36,14 @@ def play():
     choice1 = choice()
     choice2 = choice()
 
-    # Makes sure that the options of comparison are different
-    if choice1 == choice2:
-        choice2 = choice()
-
     # Substitute the second option of comparison if the player guess right.
     while play_the_game:
         if score > 0:
             choice1 = choice2
+            choice2 = choice()
+
+        # Makes sure that the options of comparison are different
+        while choice1 == choice2:
             choice2 = choice()
 
         print(f"Compare A: {choice1['name']}, a {choice1['description']}, from {choice1['country']}. ")
@@ -53,16 +53,15 @@ def play():
         choose = input("Who has more followers? Type 'A' or 'B': ").lower()
         compare(choose, choice1, choice2)
 
+        print(logo)
+
         if choice1['follower_count'] > choice2['follower_count'] and compare(choose, choice1, choice2) == True:
             score += 1
-            print(logo)
             print(f"You're right! Current score: {score}")
         elif choice2['follower_count'] > choice1['follower_count'] and compare(choose, choice1, choice2) == True:
             score += 1
-            print(logo)
             print(f"You're right! Current score: {score}")
         else:
-            print(logo)
             print(f"You lose. Final score: {score}")
             play_the_game = False
 
